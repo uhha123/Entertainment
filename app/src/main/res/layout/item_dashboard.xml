@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/normal"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/crdView_dashboard">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal">
+        <com.eftimoff.androipathview.PathView
+            android:id="@+id/pathView_item_dashboard"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            app:pathColor="@android:color/white"
+            app:svg="@raw/settings"
+            app:pathWidth="2dp"/>
+        <TextView
+            android:id="@+id/tv_dashboard_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dash_text_color"
+            android:layout_below="@+id/pathView_item_dashboard"
+            android:text="abc"
+            android:textSize="@dimen/text_size_normal"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#DF6872</color>
+
+    <color name="dash_card_violet">#999DE9</color>
+    <color name="dash_card_red">#DF6872</color>
+    <color name="dash_card_yellow">#F0C769</color>
+    <color name="dash_card_pink">#DF84B9</color>
+    <color name="dash_card_green">#A1CA78</color>
+    <color name="dash_card_green_dark">#58BFA6</color>
+    <color name="dash_card_blue_dark">#6FA0DF</color>
+    <color name="dash_card_blue">#58B7DA</color>
+    <color name="dash_card_orange">#EB7E66</color>
+    <color name="dash_text_color">#FFF</color>
+    <color name="select_bg">#BDBDBD</color>
+</resources>
